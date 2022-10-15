@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор квадратных уравнений</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <div class="example">
+                <p>
+                    Решение квадратного уравнения a&middot;x&sup2; + b&middot;x + c = 0.
+                </p>
+            </div>
+            <div class="input-value">
+                <form name="square" action="javascript:square_equation()">
+                    <p>a: <input class="calc-input input-a" name="square_a" type="text"></p>
+                    <p>b: <input class="calc-input input-b" name="square_b" type="text"></p>
+                    <p>c: <input class="calc-input input-c" name="square_c" type="text"></p>
+                    <input class="calc-button" type="submit" value="ПОСЧИТАТЬ">
+                </form>
+            </div>
+            <div class="answer">
+                <p>
+                    Решение: <span id="square_sol">Введите коэффициенты и нажмите "посчитать"</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
