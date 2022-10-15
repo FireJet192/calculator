@@ -25,6 +25,7 @@ legend {display: block;}
 
 body {
 	padding: 30px;
+    background-color: hsl(247, 69%, 95%);
 }
 .wrapper {
 	border: 5px solid #000;
